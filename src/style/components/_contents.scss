@@ -1,0 +1,50 @@
+.container {
+    z-index: 1;
+    position: absolute;
+    color: #f0f1d8;
+
+    display: flex;
+    width: 90%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+    .slogan {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10vh;
+      padding-left: 3vw;
+  
+      .slogan__text {
+        font-size: 5vw;
+        line-height: 20%;
+        background: url("../assets/texture.png");
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: #F5E6D3;
+        opacity: 0.9;
+      }
+  
+      .text-2 {
+        padding-left: 7vw;
+      }
+  
+      .text-3 {
+        padding-left: 14vw;
+      }
+    }
+  
+    .description {
+      position: absolute; 
+      bottom: 0;
+      right: 0;
+      margin: 2vw;
+  
+      .description__text {
+        font-size: 2vw;
+      }
+    }
+  }
+  
