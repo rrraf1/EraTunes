@@ -13,6 +13,4 @@ Dive into a musical journey through time with EraTunes. This web application all
 
 ### Tech Stack
 * **Frontend:** React, JavaScript, CSS
-* **Backend:** Node.js, Express
 * **API:** Spotify API
-* **Deployment:** [Specify your chosen platform, e.g., Netlify, Vercel]
