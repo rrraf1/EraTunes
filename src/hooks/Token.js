@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useSpotifyAuth = () => {
   const CLIENT_ID = "cfecfb000bfc4bc4b7e4cb756fb1285b";
-  const REDIRECT_URL = "http://localhost:3000";
+  const REDIRECT_URL = "https://era-tunes.vercel.app/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
