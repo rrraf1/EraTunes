@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import useSpotifyAuth from "../hooks/Token"; 
-
 function Navbar() {
   const { token, logout, loginUrl } = useSpotifyAuth();
 

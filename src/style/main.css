@@ -68,6 +68,41 @@ nav .logout-btn {
   font-size: 2vw;
 }
 
+#dropdown-container {
+  position: absolute;
+  width: 15vw;
+}
+#dropdown-container #decade-label {
+  color: white;
+  border-color: aliceblue;
+}
+
+.card-container {
+  width: 40vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: grey;
+  padding: 2vw;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-container .tilt {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.card-container .tilt iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
 .header {
   font-family: "Rubik", sans-serif;
 }
